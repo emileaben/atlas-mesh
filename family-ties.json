@@ -1,0 +1,2241 @@
+[
+  {
+    "fam": "Telecom Serbia",
+    "results": [
+      {
+        "src_prb": 4712,
+        "dst_prb": "1004729",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 1004729,
+        "dst_prb": "4712",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      }
+    ]
+  },
+  {
+    "fam": "United Group",
+    "results": [
+      {
+        "src_prb": 14628,
+        "dst_prb": "20073",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 25965,
+        "dst_prb": "20073",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 51013,
+        "dst_prb": "20073",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 51735,
+        "dst_prb": "20073",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 53393,
+        "dst_prb": "20073",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 53461,
+        "dst_prb": "20073",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 14628,
+        "dst_prb": "25965",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 20073,
+        "dst_prb": "25965",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 51013,
+        "dst_prb": "25965",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 51735,
+        "dst_prb": "25965",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 53393,
+        "dst_prb": "25965",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53461,
+        "dst_prb": "25965",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 14628,
+        "dst_prb": "53393",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 20073,
+        "dst_prb": "53393",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 25965,
+        "dst_prb": "53393",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 51013,
+        "dst_prb": "53393",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 51735,
+        "dst_prb": "53393",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53461,
+        "dst_prb": "53393",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 14628,
+        "dst_prb": "53461",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 20073,
+        "dst_prb": "53461",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 25965,
+        "dst_prb": "53461",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 51013,
+        "dst_prb": "53461",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 51735,
+        "dst_prb": "53461",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53393,
+        "dst_prb": "53461",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 20073,
+        "dst_prb": "14628",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 25965,
+        "dst_prb": "14628",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 51013,
+        "dst_prb": "14628",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53393,
+        "dst_prb": "14628",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53461,
+        "dst_prb": "14628",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 20073,
+        "dst_prb": "51735",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 25965,
+        "dst_prb": "51735",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 51013,
+        "dst_prb": "51735",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53393,
+        "dst_prb": "51735",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53461,
+        "dst_prb": "51735",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 14628,
+        "dst_prb": "51013",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 20073,
+        "dst_prb": "51013",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 25965,
+        "dst_prb": "51013",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 51735,
+        "dst_prb": "51013",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53393,
+        "dst_prb": "51013",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53461,
+        "dst_prb": "51013",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      }
+    ]
+  },
+  {
+    "fam": "PPF",
+    "results": []
+  },
+  {
+    "fam": "A1",
+    "results": [
+      {
+        "src_prb": 12370,
+        "dst_prb": "28126",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16227,
+        "dst_prb": "28126",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28769,
+        "dst_prb": "28126",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52570,
+        "dst_prb": "28126",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53158,
+        "dst_prb": "28126",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 60385,
+        "dst_prb": "28126",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 12370,
+        "dst_prb": "52570",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16227,
+        "dst_prb": "52570",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28126,
+        "dst_prb": "52570",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28769,
+        "dst_prb": "52570",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 53158,
+        "dst_prb": "52570",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 60385,
+        "dst_prb": "52570",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 12370,
+        "dst_prb": "53158",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16227,
+        "dst_prb": "53158",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28126,
+        "dst_prb": "53158",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28769,
+        "dst_prb": "53158",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52570,
+        "dst_prb": "53158",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 60385,
+        "dst_prb": "53158",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 12370,
+        "dst_prb": "60385",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16227,
+        "dst_prb": "60385",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28126,
+        "dst_prb": "60385",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28769,
+        "dst_prb": "60385",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 52570,
+        "dst_prb": "60385",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53158,
+        "dst_prb": "60385",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16227,
+        "dst_prb": "12370",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28126,
+        "dst_prb": "12370",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28769,
+        "dst_prb": "12370",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52570,
+        "dst_prb": "12370",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53158,
+        "dst_prb": "12370",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 60385,
+        "dst_prb": "12370",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 12370,
+        "dst_prb": "16227",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28126,
+        "dst_prb": "16227",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28769,
+        "dst_prb": "16227",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52570,
+        "dst_prb": "16227",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53158,
+        "dst_prb": "16227",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 60385,
+        "dst_prb": "16227",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 16227,
+        "dst_prb": "11375",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28126,
+        "dst_prb": "11375",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28769,
+        "dst_prb": "11375",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 52570,
+        "dst_prb": "11375",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53158,
+        "dst_prb": "11375",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 60385,
+        "dst_prb": "11375",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 12370,
+        "dst_prb": "11375",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 12370,
+        "dst_prb": "28769",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16227,
+        "dst_prb": "28769",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 28126,
+        "dst_prb": "28769",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52570,
+        "dst_prb": "28769",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 53158,
+        "dst_prb": "28769",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 60385,
+        "dst_prb": "28769",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      }
+    ]
+  },
+  {
+    "fam": "Digi Communications",
+    "results": []
+  },
+  {
+    "fam": "Vodafone",
+    "results": [
+      {
+        "src_prb": 1001563,
+        "dst_prb": "53839",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1003947,
+        "dst_prb": "53839",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13291,
+        "dst_prb": "53839",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13308,
+        "dst_prb": "53839",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16235,
+        "dst_prb": "53839",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16751,
+        "dst_prb": "53839",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21679,
+        "dst_prb": "53839",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21783,
+        "dst_prb": "53839",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 25981,
+        "dst_prb": "53839",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28765,
+        "dst_prb": "53839",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52675,
+        "dst_prb": "53839",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53795,
+        "dst_prb": "53839",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62829,
+        "dst_prb": "53839",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1001563,
+        "dst_prb": "53795",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1003947,
+        "dst_prb": "53795",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13291,
+        "dst_prb": "53795",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13308,
+        "dst_prb": "53795",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16235,
+        "dst_prb": "53795",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16751,
+        "dst_prb": "53795",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21679,
+        "dst_prb": "53795",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21783,
+        "dst_prb": "53795",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 25981,
+        "dst_prb": "53795",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28765,
+        "dst_prb": "53795",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52675,
+        "dst_prb": "53795",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53839,
+        "dst_prb": "53795",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62829,
+        "dst_prb": "53795",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1001563,
+        "dst_prb": "13308",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1003947,
+        "dst_prb": "13308",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13291,
+        "dst_prb": "13308",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16235,
+        "dst_prb": "13308",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16751,
+        "dst_prb": "13308",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21679,
+        "dst_prb": "13308",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21783,
+        "dst_prb": "13308",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 25981,
+        "dst_prb": "13308",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28765,
+        "dst_prb": "13308",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52675,
+        "dst_prb": "13308",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53795,
+        "dst_prb": "13308",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53839,
+        "dst_prb": "13308",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62829,
+        "dst_prb": "13308",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1001563,
+        "dst_prb": "25981",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1003947,
+        "dst_prb": "25981",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13291,
+        "dst_prb": "25981",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13308,
+        "dst_prb": "25981",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16235,
+        "dst_prb": "25981",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16751,
+        "dst_prb": "25981",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21679,
+        "dst_prb": "25981",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21783,
+        "dst_prb": "25981",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28765,
+        "dst_prb": "25981",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52675,
+        "dst_prb": "25981",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53795,
+        "dst_prb": "25981",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53839,
+        "dst_prb": "25981",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62829,
+        "dst_prb": "25981",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1001563,
+        "dst_prb": "13291",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1003947,
+        "dst_prb": "13291",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13308,
+        "dst_prb": "13291",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16235,
+        "dst_prb": "13291",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16751,
+        "dst_prb": "13291",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21679,
+        "dst_prb": "13291",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21783,
+        "dst_prb": "13291",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 25981,
+        "dst_prb": "13291",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28765,
+        "dst_prb": "13291",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52675,
+        "dst_prb": "13291",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53795,
+        "dst_prb": "13291",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53839,
+        "dst_prb": "13291",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62829,
+        "dst_prb": "13291",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1001563,
+        "dst_prb": "16235",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1003947,
+        "dst_prb": "16235",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13291,
+        "dst_prb": "16235",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13308,
+        "dst_prb": "16235",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16751,
+        "dst_prb": "16235",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21783,
+        "dst_prb": "16235",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 25981,
+        "dst_prb": "16235",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28765,
+        "dst_prb": "16235",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52675,
+        "dst_prb": "16235",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53795,
+        "dst_prb": "16235",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53839,
+        "dst_prb": "16235",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62829,
+        "dst_prb": "16235",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1001563,
+        "dst_prb": "21679",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1003947,
+        "dst_prb": "21679",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13291,
+        "dst_prb": "21679",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13308,
+        "dst_prb": "21679",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16751,
+        "dst_prb": "21679",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21783,
+        "dst_prb": "21679",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 25981,
+        "dst_prb": "21679",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28765,
+        "dst_prb": "21679",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52675,
+        "dst_prb": "21679",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53795,
+        "dst_prb": "21679",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53839,
+        "dst_prb": "21679",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62829,
+        "dst_prb": "21679",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1003947,
+        "dst_prb": "1001563",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13291,
+        "dst_prb": "1001563",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13308,
+        "dst_prb": "1001563",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16235,
+        "dst_prb": "1001563",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16751,
+        "dst_prb": "1001563",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21679,
+        "dst_prb": "1001563",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21783,
+        "dst_prb": "1001563",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 25981,
+        "dst_prb": "1001563",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28765,
+        "dst_prb": "1001563",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52675,
+        "dst_prb": "1001563",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53795,
+        "dst_prb": "1001563",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53839,
+        "dst_prb": "1001563",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62829,
+        "dst_prb": "1001563",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1001563,
+        "dst_prb": "62829",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1003947,
+        "dst_prb": "62829",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13291,
+        "dst_prb": "62829",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13308,
+        "dst_prb": "62829",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16235,
+        "dst_prb": "62829",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16751,
+        "dst_prb": "62829",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21679,
+        "dst_prb": "62829",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21783,
+        "dst_prb": "62829",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 25981,
+        "dst_prb": "62829",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28765,
+        "dst_prb": "62829",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52675,
+        "dst_prb": "62829",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53795,
+        "dst_prb": "62829",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53839,
+        "dst_prb": "62829",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1001563,
+        "dst_prb": "52675",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1003947,
+        "dst_prb": "52675",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13291,
+        "dst_prb": "52675",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13308,
+        "dst_prb": "52675",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16235,
+        "dst_prb": "52675",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16751,
+        "dst_prb": "52675",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21679,
+        "dst_prb": "52675",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21783,
+        "dst_prb": "52675",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 25981,
+        "dst_prb": "52675",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28765,
+        "dst_prb": "52675",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53795,
+        "dst_prb": "52675",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53839,
+        "dst_prb": "52675",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62829,
+        "dst_prb": "52675",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1001563,
+        "dst_prb": "1003947",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13291,
+        "dst_prb": "1003947",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13308,
+        "dst_prb": "1003947",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16235,
+        "dst_prb": "1003947",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16751,
+        "dst_prb": "1003947",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21679,
+        "dst_prb": "1003947",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21783,
+        "dst_prb": "1003947",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 25981,
+        "dst_prb": "1003947",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28765,
+        "dst_prb": "1003947",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52675,
+        "dst_prb": "1003947",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53795,
+        "dst_prb": "1003947",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53839,
+        "dst_prb": "1003947",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62829,
+        "dst_prb": "1003947",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1001563,
+        "dst_prb": "28765",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1003947,
+        "dst_prb": "28765",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13291,
+        "dst_prb": "28765",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13308,
+        "dst_prb": "28765",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16235,
+        "dst_prb": "28765",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16751,
+        "dst_prb": "28765",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21679,
+        "dst_prb": "28765",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21783,
+        "dst_prb": "28765",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 25981,
+        "dst_prb": "28765",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52675,
+        "dst_prb": "28765",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53795,
+        "dst_prb": "28765",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53839,
+        "dst_prb": "28765",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62829,
+        "dst_prb": "28765",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1001563,
+        "dst_prb": "21783",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13291,
+        "dst_prb": "21783",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13308,
+        "dst_prb": "21783",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16235,
+        "dst_prb": "21783",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 16751,
+        "dst_prb": "21783",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21679,
+        "dst_prb": "21783",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 25981,
+        "dst_prb": "21783",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28765,
+        "dst_prb": "21783",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52675,
+        "dst_prb": "21783",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53795,
+        "dst_prb": "21783",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53839,
+        "dst_prb": "21783",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62829,
+        "dst_prb": "21783",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1003947,
+        "dst_prb": "21783",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1003947,
+        "dst_prb": "16751",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13291,
+        "dst_prb": "16751",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 13308,
+        "dst_prb": "16751",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 16235,
+        "dst_prb": "16751",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21679,
+        "dst_prb": "16751",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 21783,
+        "dst_prb": "16751",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 25981,
+        "dst_prb": "16751",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 28765,
+        "dst_prb": "16751",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52675,
+        "dst_prb": "16751",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53795,
+        "dst_prb": "16751",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53839,
+        "dst_prb": "16751",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62829,
+        "dst_prb": "16751",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 1001563,
+        "dst_prb": "16751",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      }
+    ]
+  },
+  {
+    "fam": "Orange",
+    "results": [
+      {
+        "src_prb": 17082,
+        "dst_prb": "61275",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 29341,
+        "dst_prb": "61275",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 17082,
+        "dst_prb": "29341",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 61275,
+        "dst_prb": "29341",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 29341,
+        "dst_prb": "17082",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 61275,
+        "dst_prb": "17082",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      }
+    ]
+  },
+  {
+    "fam": "Deutsche Telekom",
+    "results": [
+      {
+        "src_prb": 12997,
+        "dst_prb": "2453",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 32090,
+        "dst_prb": "2453",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52007,
+        "dst_prb": "2453",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 53811,
+        "dst_prb": "2453",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 62906,
+        "dst_prb": "2453",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 2453,
+        "dst_prb": "12997",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 32090,
+        "dst_prb": "12997",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52007,
+        "dst_prb": "12997",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 53811,
+        "dst_prb": "12997",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62906,
+        "dst_prb": "12997",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 12997,
+        "dst_prb": "32090",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 2453,
+        "dst_prb": "32090",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53811,
+        "dst_prb": "32090",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62906,
+        "dst_prb": "32090",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 12997,
+        "dst_prb": "52007",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 2453,
+        "dst_prb": "52007",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 53811,
+        "dst_prb": "52007",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 62906,
+        "dst_prb": "52007",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 12997,
+        "dst_prb": "62906",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 2453,
+        "dst_prb": "62906",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 32090,
+        "dst_prb": "62906",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52007,
+        "dst_prb": "62906",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 53811,
+        "dst_prb": "62906",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 12997,
+        "dst_prb": "53811",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 2453,
+        "dst_prb": "53811",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 32090,
+        "dst_prb": "53811",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": true,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 52007,
+        "dst_prb": "53811",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 62906,
+        "dst_prb": "53811",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      }
+    ]
+  },
+  {
+    "fam": "Telecom Slovenia",
+    "results": [
+      {
+        "src_prb": 21795,
+        "dst_prb": "25967",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 25967,
+        "dst_prb": "21795",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      }
+    ]
+  },
+  {
+    "fam": "4iG",
+    "results": [
+      {
+        "src_prb": 11590,
+        "dst_prb": "61616",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 2851,
+        "dst_prb": "61616",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 2851,
+        "dst_prb": "11590",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 61616,
+        "dst_prb": "11590",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      },
+      {
+        "src_prb": 11590,
+        "dst_prb": "2851",
+        "all_asns_in_fam": false,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": false
+      },
+      {
+        "src_prb": 61616,
+        "dst_prb": "2851",
+        "all_asns_in_fam": true,
+        "onpath_fam_asns_seen": false,
+        "only_src_dst_asn": true
+      }
+    ]
+  }
+]

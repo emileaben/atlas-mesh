@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from functools import lru_cache
 import sys
 import requests
 import time
@@ -11,38 +12,23 @@ families = {}
 
 prb_meta = {} #  keyed by ID
 
-ip2as = {}
+as2name = {}
 
-def load_riswhois():
-    pcl_fname = "./ris.lookup.pcl"
-    if exists( pcl_fname ):
-        ip2as = pickle.load( open( pcl_fname,'rb') )
-        return ip2as
-    else:
-        ip2as = Radix()
-        with gzip.open("riswhoisdump.IPv4.gz",'rt') as inf:
-            for line in inf:
-                line = line.rstrip('\n')
-                if line.startswith('%'):
-                    continue
-                if line == '':
-                    continue
-                fields = line.split() 
-                origin = fields[0]
-                pfx = fields[1]
-                pwr = int( fields[2] )
-                if pwr < 10: # crap filter
-                    continue
+@lru_cache
+def ip2as( ip ):
+    asn = None
+    try:
+        d = requests.get( "https://stat.ripe.net/data/prefix-overview/data.json?max_related=0&resource=%s" % ( ip ) )
+        asnjson = d.json()
+        if len( asnjson['data']['asns'] ) > 0:
+            asn = str( asnjson['data']['asns'][0]['asn'] )
+        else:
+            asn = None
+    except:
+        sys.stderr.write( "eeps: problem in ASN for ip: %s\n" %  (ip ) )
+        return None ## todo proper error handling
+    return asn
 
-                # insert, but with care!
-                rnode = ip2as.search_exact( pfx )
-                if rnode:
-                    rnode.data['origin'].add( origin )
-                else:
-                    rnode = ip2as.add( pfx )
-                    rnode.data['origin'] = set([ origin ])
-            pickle.dump(ip2as, open( pcl_fname,'wb') )
-            return ip2as
 
 
 def probes_for_asn( asn ): # fills prb_meta as a side effect
@@ -55,7 +41,6 @@ def probes_for_asn( asn ): # fills prb_meta as a side effect
     return probes
 
 def get_measurements( probes, fam_asns ): # get 2 hrs of measurements from this set (to random destinations)
-    print( probes )
     probes_fmt = ",".join( [str(x) for x in probes] )
     stop = int( time.time() )
     start = stop - 3600*2
@@ -63,34 +48,34 @@ def get_measurements( probes, fam_asns ): # get 2 hrs of measurements from this 
     req = requests.get( url )
     j = req.json()
     for m in j: # its a list
+        if not 'dst_addr' in m:
+            continue
+        dst_addr = m['dst_addr']
+        dst_asn = ip2as( dst_addr )
+
         prb_id = m['prb_id']
         prb_asn = str( prb_meta[ prb_id ]['asn_v4'] )
-        dst_addr = m['dst_addr']
-        dst_asn = None
-        rnode = ip2as.search_best( dst_addr )
-        if rnode:
-            dst_asn = rnode.data['origin']
 
         as_path = []
         has_fam_asn = False
+        fam_seen = set()
         for hop in m['result']:
             if 'result' in hop:
                 for hr in hop['result']:
                     if 'from' in hr:
                         ip = hr['from']
-                        rnode = ip2as.search_best( ip )
-                        if rnode:
-                            as_path.append( rnode.data['origin'] )
-                            for asn in rnode.data['origin']:
-                                if asn != prb_asn and asn in fam_asns:
-                                    has_fam_asn = True
-        print( has_fam_asn, prb_id, prb_asn, dst_addr, dst_asn, as_path )
+                        asn = ip2as( ip )
+                        as_path.append( asn )
+                        if asn != prb_asn and asn in fam_asns:
+                            has_fam_asn = True
+                            fam_seen.add( asn )
+        print( has_fam_asn, prb_asn, dst_asn, fam_asns, as_path )
+        if has_fam_asn:
+            print(f"#PRB ASN: {prb_asn} { as2name[ prb_asn ] }")
+            print(f"#FAM ASN: {fam_seen} { [as2name[x] for x in fam_seen] }")
 
 
 ##### MAIN
-
-ip2as = load_riswhois()
-print("LOADED", file=sys.stderr )
 
 
 with open("member_probes_asn_see.csv",'rt') as inf:
@@ -102,13 +87,14 @@ with open("member_probes_asn_see.csv",'rt') as inf:
         asn = fields[3]
         if asn.startswith('AS'):
             asn = asn[2:]
+        as2name[ asn ] = fields[4]
         if family != '':
             families.setdefault( family, set() )
             families[ family ].add( asn )
 
 for fam in families:
     fam_asns = families[ fam ]
-    print( fam, fam_asns )
+    #print( fam, fam_asns )
     for asn in fam_asns:
         probes = probes_for_asn( asn )
         if len( probes ) > 0: 

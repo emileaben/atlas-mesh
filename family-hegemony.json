@@ -1,0 +1,1754 @@
+[
+  {
+    "name": "Telecom Serbia",
+    "asns": [
+      "43940",
+      "25144",
+      "41937",
+      "8400"
+    ],
+    "deps": [
+      {
+        "downstream_asn": "43940 | MTEL-AS Drustvo za telekomunikacije \"MTEL\" DOO, ME",
+        "upstream_asn": "6453 | AS6453, US",
+        "dependency_pct": 6.1797752808988795
+      },
+      {
+        "downstream_asn": "43940 | MTEL-AS Drustvo za telekomunikacije \"MTEL\" DOO, ME",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 2.2471910112359597
+      },
+      {
+        "downstream_asn": "43940 | MTEL-AS Drustvo za telekomunikacije \"MTEL\" DOO, ME",
+        "upstream_asn": "9002 | RETN-AS RETN Limited, GB",
+        "dependency_pct": 8.23970037453183
+      },
+      {
+        "downstream_asn": "43940 | MTEL-AS Drustvo za telekomunikacije \"MTEL\" DOO, ME",
+        "upstream_asn": "8400 | TELEKOM-AS TELEKOM SRBIJA a.d., RS",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "43940 | MTEL-AS Drustvo za telekomunikacije \"MTEL\" DOO, ME",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 17.813670411985
+      },
+      {
+        "downstream_asn": "25144 | TELEKOM-SRPSKE-AS \"Telekomunikacije Republike Srpske\" akcionarsko drustvo Banja Luka, BA",
+        "upstream_asn": "6453 | AS6453, US",
+        "dependency_pct": 0.0243950039032006
+      },
+      {
+        "downstream_asn": "25144 | TELEKOM-SRPSKE-AS \"Telekomunikacije Republike Srpske\" akcionarsko drustvo Banja Luka, BA",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 3.4836065573770503
+      },
+      {
+        "downstream_asn": "25144 | TELEKOM-SRPSKE-AS \"Telekomunikacije Republike Srpske\" akcionarsko drustvo Banja Luka, BA",
+        "upstream_asn": "9002 | RETN-AS RETN Limited, GB",
+        "dependency_pct": 7.00624512099922
+      },
+      {
+        "downstream_asn": "25144 | TELEKOM-SRPSKE-AS \"Telekomunikacije Republike Srpske\" akcionarsko drustvo Banja Luka, BA",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 0.0341530054644809
+      },
+      {
+        "downstream_asn": "25144 | TELEKOM-SRPSKE-AS \"Telekomunikacije Republike Srpske\" akcionarsko drustvo Banja Luka, BA",
+        "upstream_asn": "5391 | T-HT Hrvatski Telekom d.d., HR",
+        "dependency_pct": 42.7561706694297
+      },
+      {
+        "downstream_asn": "25144 | TELEKOM-SRPSKE-AS \"Telekomunikacije Republike Srpske\" akcionarsko drustvo Banja Luka, BA",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 29.108118657299
+      },
+      {
+        "downstream_asn": "25144 | TELEKOM-SRPSKE-AS \"Telekomunikacije Republike Srpske\" akcionarsko drustvo Banja Luka, BA",
+        "upstream_asn": "8400 | TELEKOM-AS TELEKOM SRBIJA a.d., RS",
+        "dependency_pct": 41.1132892567226
+      },
+      {
+        "downstream_asn": "25144 | TELEKOM-SRPSKE-AS \"Telekomunikacije Republike Srpske\" akcionarsko drustvo Banja Luka, BA",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 11.9033425590803
+      },
+      {
+        "downstream_asn": "25144 | TELEKOM-SRPSKE-AS \"Telekomunikacije Republike Srpske\" akcionarsko drustvo Banja Luka, BA",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 0.204918032786885
+      },
+      {
+        "downstream_asn": "41937 | MOJASUPERNOVA TELEKOM SRBIJA a.d., RS",
+        "upstream_asn": "6453 | AS6453, US",
+        "dependency_pct": 5.688202247191009
+      },
+      {
+        "downstream_asn": "41937 | MOJASUPERNOVA TELEKOM SRBIJA a.d., RS",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 9.1729088639201
+      },
+      {
+        "downstream_asn": "41937 | MOJASUPERNOVA TELEKOM SRBIJA a.d., RS",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 2.10648148148148
+      },
+      {
+        "downstream_asn": "41937 | MOJASUPERNOVA TELEKOM SRBIJA a.d., RS",
+        "upstream_asn": "9002 | RETN-AS RETN Limited, GB",
+        "dependency_pct": 8.33333333333333
+      },
+      {
+        "downstream_asn": "41937 | MOJASUPERNOVA TELEKOM SRBIJA a.d., RS",
+        "upstream_asn": "8400 | TELEKOM-AS TELEKOM SRBIJA a.d., RS",
+        "dependency_pct": 94.7070707070707
+      },
+      {
+        "downstream_asn": "41937 | MOJASUPERNOVA TELEKOM SRBIJA a.d., RS",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 7.75983146067416
+      },
+      {
+        "downstream_asn": "8400 | TELEKOM-AS TELEKOM SRBIJA a.d., RS",
+        "upstream_asn": "9002 | RETN-AS RETN Limited, GB",
+        "dependency_pct": 8.2885465185716
+      },
+      {
+        "downstream_asn": "8400 | TELEKOM-AS TELEKOM SRBIJA a.d., RS",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 12.5947987579123
+      },
+      {
+        "downstream_asn": "8400 | TELEKOM-AS TELEKOM SRBIJA a.d., RS",
+        "upstream_asn": "6453 | AS6453, US",
+        "dependency_pct": 7.324137107368919
+      },
+      {
+        "downstream_asn": "8400 | TELEKOM-AS TELEKOM SRBIJA a.d., RS",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 7.201346590230499
+      }
+    ]
+  },
+  {
+    "name": "United Group",
+    "asns": [
+      "1241",
+      "25472",
+      "31042",
+      "3212",
+      "8866",
+      "42560",
+      "205714"
+    ],
+    "deps": [
+      {
+        "downstream_asn": "1241 | FORTHNET-GR Forthnet, EU",
+        "upstream_asn": "6453 | AS6453, US",
+        "dependency_pct": 0.48219584569732904
+      },
+      {
+        "downstream_asn": "1241 | FORTHNET-GR Forthnet, EU",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 9.10034265931892
+      },
+      {
+        "downstream_asn": "1241 | FORTHNET-GR Forthnet, EU",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 1.33972728557298
+      },
+      {
+        "downstream_asn": "1241 | FORTHNET-GR Forthnet, EU",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 6.05747491875088
+      },
+      {
+        "downstream_asn": "1241 | FORTHNET-GR Forthnet, EU",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 2.66444114737883
+      },
+      {
+        "downstream_asn": "1241 | FORTHNET-GR Forthnet, EU",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 1.6664900381517598
+      },
+      {
+        "downstream_asn": "1241 | FORTHNET-GR Forthnet, EU",
+        "upstream_asn": "31042 | SERBIA-BROADBAND-AS Serbia BroadBand-Srpske Kablovske mreze d.o.o., RS",
+        "dependency_pct": 27.113183552352698
+      },
+      {
+        "downstream_asn": "1241 | FORTHNET-GR Forthnet, EU",
+        "upstream_asn": "6762 | SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+        "dependency_pct": 47.7266946703149
+      },
+      {
+        "downstream_asn": "1241 | FORTHNET-GR Forthnet, EU",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 2.45601949978805
+      },
+      {
+        "downstream_asn": "25472 | WIND-AS Nova Telecommunications & Media Single Member S.A, GR",
+        "upstream_asn": "6453 | AS6453, US",
+        "dependency_pct": 0.879594662638469
+      },
+      {
+        "downstream_asn": "25472 | WIND-AS Nova Telecommunications & Media Single Member S.A, GR",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 0.533421450151057
+      },
+      {
+        "downstream_asn": "25472 | WIND-AS Nova Telecommunications & Media Single Member S.A, GR",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 5.43491943605237
+      },
+      {
+        "downstream_asn": "25472 | WIND-AS Nova Telecommunications & Media Single Member S.A, GR",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 1.1738418932527699
+      },
+      {
+        "downstream_asn": "25472 | WIND-AS Nova Telecommunications & Media Single Member S.A, GR",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 5.987223061430011
+      },
+      {
+        "downstream_asn": "25472 | WIND-AS Nova Telecommunications & Media Single Member S.A, GR",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 0.9692849949647531
+      },
+      {
+        "downstream_asn": "25472 | WIND-AS Nova Telecommunications & Media Single Member S.A, GR",
+        "upstream_asn": "31042 | SERBIA-BROADBAND-AS Serbia BroadBand-Srpske Kablovske mreze d.o.o., RS",
+        "dependency_pct": 61.9046965119473
+      },
+      {
+        "downstream_asn": "25472 | WIND-AS Nova Telecommunications & Media Single Member S.A, GR",
+        "upstream_asn": "6762 | SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+        "dependency_pct": 37.029662180719605
+      },
+      {
+        "downstream_asn": "25472 | WIND-AS Nova Telecommunications & Media Single Member S.A, GR",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 0.849697885196375
+      },
+      {
+        "downstream_asn": "31042 | SERBIA-BROADBAND-AS Serbia BroadBand-Srpske Kablovske mreze d.o.o., RS",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 3.23926053451385
+      },
+      {
+        "downstream_asn": "31042 | SERBIA-BROADBAND-AS Serbia BroadBand-Srpske Kablovske mreze d.o.o., RS",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 9.846901131333
+      },
+      {
+        "downstream_asn": "31042 | SERBIA-BROADBAND-AS Serbia BroadBand-Srpske Kablovske mreze d.o.o., RS",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 0.00512379078537465
+      },
+      {
+        "downstream_asn": "31042 | SERBIA-BROADBAND-AS Serbia BroadBand-Srpske Kablovske mreze d.o.o., RS",
+        "upstream_asn": "3212 | TELEMACH Telemach UG d.o.o., SI",
+        "dependency_pct": 0.073782587309395
+      },
+      {
+        "downstream_asn": "31042 | SERBIA-BROADBAND-AS Serbia BroadBand-Srpske Kablovske mreze d.o.o., RS",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 1.3045171339563901
+      },
+      {
+        "downstream_asn": "31042 | SERBIA-BROADBAND-AS Serbia BroadBand-Srpske Kablovske mreze d.o.o., RS",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 9.85623996510408
+      },
+      {
+        "downstream_asn": "31042 | SERBIA-BROADBAND-AS Serbia BroadBand-Srpske Kablovske mreze d.o.o., RS",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 2.04849155599279
+      },
+      {
+        "downstream_asn": "3212 | TELEMACH Telemach UG d.o.o., SI",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 0.0108104768964665
+      },
+      {
+        "downstream_asn": "3212 | TELEMACH Telemach UG d.o.o., SI",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 0.0015443538423523602
+      },
+      {
+        "downstream_asn": "3212 | TELEMACH Telemach UG d.o.o., SI",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 0.0108104768964665
+      },
+      {
+        "downstream_asn": "3212 | TELEMACH Telemach UG d.o.o., SI",
+        "upstream_asn": "31042 | SERBIA-BROADBAND-AS Serbia BroadBand-Srpske Kablovske mreze d.o.o., RS",
+        "dependency_pct": 24.3776534806928
+      },
+      {
+        "downstream_asn": "3212 | TELEMACH Telemach UG d.o.o., SI",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 73.7161877352869
+      },
+      {
+        "downstream_asn": "8866 | BTC-AS Vivacom Bulgaria EAD, BG",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 0.32971014492753603
+      },
+      {
+        "downstream_asn": "8866 | BTC-AS Vivacom Bulgaria EAD, BG",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 0.00072463768115942
+      },
+      {
+        "downstream_asn": "8866 | BTC-AS Vivacom Bulgaria EAD, BG",
+        "upstream_asn": "6762 | SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+        "dependency_pct": 0.0036231884057971
+      },
+      {
+        "downstream_asn": "8866 | BTC-AS Vivacom Bulgaria EAD, BG",
+        "upstream_asn": "9002 | RETN-AS RETN Limited, GB",
+        "dependency_pct": 10.716666666666699
+      },
+      {
+        "downstream_asn": "8866 | BTC-AS Vivacom Bulgaria EAD, BG",
+        "upstream_asn": "31042 | SERBIA-BROADBAND-AS Serbia BroadBand-Srpske Kablovske mreze d.o.o., RS",
+        "dependency_pct": 19.8521548449102
+      },
+      {
+        "downstream_asn": "8866 | BTC-AS Vivacom Bulgaria EAD, BG",
+        "upstream_asn": "44901 | belcloud Belcloud LTD, BG",
+        "dependency_pct": 22.5818783967391
+      },
+      {
+        "downstream_asn": "8866 | BTC-AS Vivacom Bulgaria EAD, BG",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 22.4912986865942
+      },
+      {
+        "downstream_asn": "8866 | BTC-AS Vivacom Bulgaria EAD, BG",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 2.29927536231884
+      },
+      {
+        "downstream_asn": "8866 | BTC-AS Vivacom Bulgaria EAD, BG",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 5.2326086956521705
+      },
+      {
+        "downstream_asn": "42560 | BA-TELEMACH-AS Telemach d.o.o. Sarajevo, BA",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 0.00744047619047619
+      },
+      {
+        "downstream_asn": "42560 | BA-TELEMACH-AS Telemach d.o.o. Sarajevo, BA",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 0.0111607142857143
+      },
+      {
+        "downstream_asn": "42560 | BA-TELEMACH-AS Telemach d.o.o. Sarajevo, BA",
+        "upstream_asn": "31042 | SERBIA-BROADBAND-AS Serbia BroadBand-Srpske Kablovske mreze d.o.o., RS",
+        "dependency_pct": 49.3506493506494
+      },
+      {
+        "downstream_asn": "42560 | BA-TELEMACH-AS Telemach d.o.o. Sarajevo, BA",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 0.182291666666667
+      },
+      {
+        "downstream_asn": "42560 | BA-TELEMACH-AS Telemach d.o.o. Sarajevo, BA",
+        "upstream_asn": "3212 | TELEMACH Telemach UG d.o.o., SI",
+        "dependency_pct": 50.75324675324679
+      },
+      {
+        "downstream_asn": "42560 | BA-TELEMACH-AS Telemach d.o.o. Sarajevo, BA",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 55.915178571428605
+      },
+      {
+        "downstream_asn": "205714 | tele2hr Telemach Hrvatska d.o.o., HR",
+        "upstream_asn": "31042 | SERBIA-BROADBAND-AS Serbia BroadBand-Srpske Kablovske mreze d.o.o., RS",
+        "dependency_pct": 43.75
+      },
+      {
+        "downstream_asn": "205714 | tele2hr Telemach Hrvatska d.o.o., HR",
+        "upstream_asn": "1257 | TELE2, EU",
+        "dependency_pct": 4.16666666666667
+      },
+      {
+        "downstream_asn": "205714 | tele2hr Telemach Hrvatska d.o.o., HR",
+        "upstream_asn": "3212 | TELEMACH Telemach UG d.o.o., SI",
+        "dependency_pct": 56.25
+      },
+      {
+        "downstream_asn": "205714 | tele2hr Telemach Hrvatska d.o.o., HR",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 56.25
+      }
+    ]
+  },
+  {
+    "name": "PPF",
+    "asns": [
+      "29244",
+      "15958"
+    ],
+    "deps": [
+      {
+        "downstream_asn": "29244 | TelenorBG-AS CETIN Bulgaria EAD, BG",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 71.2719298245614
+      },
+      {
+        "downstream_asn": "29244 | TelenorBG-AS CETIN Bulgaria EAD, BG",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 31.25
+      },
+      {
+        "downstream_asn": "15958 | CETIN_doo_AS CETIN Ltd. Belgrade, RS",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 25.9539072039072
+      },
+      {
+        "downstream_asn": "15958 | CETIN_doo_AS CETIN Ltd. Belgrade, RS",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 0.213675213675214
+      },
+      {
+        "downstream_asn": "15958 | CETIN_doo_AS CETIN Ltd. Belgrade, RS",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 34.2490842490842
+      }
+    ]
+  },
+  {
+    "name": "A1",
+    "asns": [
+      "43612",
+      "8447",
+      "12810",
+      "13124",
+      "21283",
+      "29580",
+      "12716",
+      "31012",
+      "44143",
+      "12793",
+      "15994"
+    ],
+    "deps": [
+      {
+        "downstream_asn": "43612 | blizoo Company for communications services A1 Makedonija DOOEL Skopje, MK",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 29.380841121495298
+      },
+      {
+        "downstream_asn": "43612 | blizoo Company for communications services A1 Makedonija DOOEL Skopje, MK",
+        "upstream_asn": "8447 | A1TELEKOM-AT A1 Telekom Austria AG, AT",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "43612 | blizoo Company for communications services A1 Makedonija DOOEL Skopje, MK",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 20.6386292834891
+      },
+      {
+        "downstream_asn": "8447 | A1TELEKOM-AT A1 Telekom Austria AG, AT",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 0.000980738299792083
+      },
+      {
+        "downstream_asn": "8447 | A1TELEKOM-AT A1 Telekom Austria AG, AT",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 29.22183319603
+      },
+      {
+        "downstream_asn": "8447 | A1TELEKOM-AT A1 Telekom Austria AG, AT",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 0.000245184574948021
+      },
+      {
+        "downstream_asn": "8447 | A1TELEKOM-AT A1 Telekom Austria AG, AT",
+        "upstream_asn": "6453 | AS6453, US",
+        "dependency_pct": 0.011768859597505
+      },
+      {
+        "downstream_asn": "8447 | A1TELEKOM-AT A1 Telekom Austria AG, AT",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 24.0001372456647
+      },
+      {
+        "downstream_asn": "12810 | VIPNET-AS A1 Hrvatska d.o.o., HR",
+        "upstream_asn": "8447 | A1TELEKOM-AT A1 Telekom Austria AG, AT",
+        "dependency_pct": 30.7297344821523
+      },
+      {
+        "downstream_asn": "12810 | VIPNET-AS A1 Hrvatska d.o.o., HR",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 0.576241134751773
+      },
+      {
+        "downstream_asn": "12810 | VIPNET-AS A1 Hrvatska d.o.o., HR",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 0.16924564796905198
+      },
+      {
+        "downstream_asn": "12810 | VIPNET-AS A1 Hrvatska d.o.o., HR",
+        "upstream_asn": "15994 | A1HR A1 Hrvatska d.o.o., HR",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "12810 | VIPNET-AS A1 Hrvatska d.o.o., HR",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 67.7103481624758
+      },
+      {
+        "downstream_asn": "13124 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 0.11860561056105601
+      },
+      {
+        "downstream_asn": "13124 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 8.107295104510449
+      },
+      {
+        "downstream_asn": "13124 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "3223 | VOXILITY Voxility LLP, GB",
+        "dependency_pct": 1.73267326732673
+      },
+      {
+        "downstream_asn": "13124 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "8447 | A1TELEKOM-AT A1 Telekom Austria AG, AT",
+        "dependency_pct": 0.6406709356942519
+      },
+      {
+        "downstream_asn": "13124 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 19.0439356435644
+      },
+      {
+        "downstream_asn": "13124 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "9002 | RETN-AS RETN Limited, GB",
+        "dependency_pct": 4.36090484048405
+      },
+      {
+        "downstream_asn": "13124 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "8717 | A1BG A1 Bulgaria EAD, BG",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "13124 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 16.536028602860302
+      },
+      {
+        "downstream_asn": "21283 | A1SI-AS A1 Slovenija telekomunikacijske storitve,d.d., SI",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 4.16666666666667
+      },
+      {
+        "downstream_asn": "21283 | A1SI-AS A1 Slovenija telekomunikacijske storitve,d.d., SI",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 26.5133647798742
+      },
+      {
+        "downstream_asn": "21283 | A1SI-AS A1 Slovenija telekomunikacijske storitve,d.d., SI",
+        "upstream_asn": "8447 | A1TELEKOM-AT A1 Telekom Austria AG, AT",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "21283 | A1SI-AS A1 Slovenija telekomunikacijske storitve,d.d., SI",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 23.4866352201258
+      },
+      {
+        "downstream_asn": "29580 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 0.232035928143713
+      },
+      {
+        "downstream_asn": "29580 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 17.5424151696607
+      },
+      {
+        "downstream_asn": "29580 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 24.5883233532934
+      },
+      {
+        "downstream_asn": "29580 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "8447 | A1TELEKOM-AT A1 Telekom Austria AG, AT",
+        "dependency_pct": 2.7994011976047903
+      },
+      {
+        "downstream_asn": "29580 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "9002 | RETN-AS RETN Limited, GB",
+        "dependency_pct": 8.67764471057884
+      },
+      {
+        "downstream_asn": "29580 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "8717 | A1BG A1 Bulgaria EAD, BG",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "29580 | A1BG A1 Bulgaria EAD, BG",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 22.7744510978044
+      },
+      {
+        "downstream_asn": "12716 | A1_BG_AS12716 A1 Bulgaria EAD, BG",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 18.4294871794872
+      },
+      {
+        "downstream_asn": "12716 | A1_BG_AS12716 A1 Bulgaria EAD, BG",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 10.8058608058608
+      },
+      {
+        "downstream_asn": "12716 | A1_BG_AS12716 A1 Bulgaria EAD, BG",
+        "upstream_asn": "9002 | RETN-AS RETN Limited, GB",
+        "dependency_pct": 5.35714285714286
+      },
+      {
+        "downstream_asn": "12716 | A1_BG_AS12716 A1 Bulgaria EAD, BG",
+        "upstream_asn": "8717 | A1BG A1 Bulgaria EAD, BG",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "12716 | A1_BG_AS12716 A1 Bulgaria EAD, BG",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 14.858058608058599
+      },
+      {
+        "downstream_asn": "31012 | DCM-AS A1 Hrvatska d.o.o., HR",
+        "upstream_asn": "8447 | A1TELEKOM-AT A1 Telekom Austria AG, AT",
+        "dependency_pct": 31.25
+      },
+      {
+        "downstream_asn": "31012 | DCM-AS A1 Hrvatska d.o.o., HR",
+        "upstream_asn": "15994 | A1HR A1 Hrvatska d.o.o., HR",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "31012 | DCM-AS A1 Hrvatska d.o.o., HR",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 70.8333333333333
+      },
+      {
+        "downstream_asn": "44143 | A1SERBIA-AS A1 Srbija d.o.o, RS",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 33.9236111111111
+      },
+      {
+        "downstream_asn": "44143 | A1SERBIA-AS A1 Srbija d.o.o, RS",
+        "upstream_asn": "8447 | A1TELEKOM-AT A1 Telekom Austria AG, AT",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "44143 | A1SERBIA-AS A1 Srbija d.o.o, RS",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 14.7569444444444
+      },
+      {
+        "downstream_asn": "12793 | A1-TELEKOM-AT A1 Telekom Austria AG, AT",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 31.2572087658593
+      },
+      {
+        "downstream_asn": "12793 | A1-TELEKOM-AT A1 Telekom Austria AG, AT",
+        "upstream_asn": "8447 | A1TELEKOM-AT A1 Telekom Austria AG, AT",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "12793 | A1-TELEKOM-AT A1 Telekom Austria AG, AT",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 25.0072087658593
+      },
+      {
+        "downstream_asn": "15994 | A1HR A1 Hrvatska d.o.o., HR",
+        "upstream_asn": "8447 | A1TELEKOM-AT A1 Telekom Austria AG, AT",
+        "dependency_pct": 14.5833333333333
+      },
+      {
+        "downstream_asn": "15994 | A1HR A1 Hrvatska d.o.o., HR",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 85.4166666666667
+      }
+    ]
+  },
+  {
+    "name": "Digi Communications",
+    "asns": [
+      "8708"
+    ],
+    "deps": [
+      {
+        "downstream_asn": "8708 | RCS-RDS RCS & RDS SA, RO",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 2.15677855190388
+      },
+      {
+        "downstream_asn": "8708 | RCS-RDS RCS & RDS SA, RO",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 0.950077829664221
+      },
+      {
+        "downstream_asn": "8708 | RCS-RDS RCS & RDS SA, RO",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 26.037497220369097
+      },
+      {
+        "downstream_asn": "8708 | RCS-RDS RCS & RDS SA, RO",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 9.24614621391666
+      },
+      {
+        "downstream_asn": "8708 | RCS-RDS RCS & RDS SA, RO",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 6.4178894075951
+      }
+    ]
+  },
+  {
+    "name": "Vodafone",
+    "asns": [
+      "30722",
+      "15897",
+      "50973",
+      "21334",
+      "3209",
+      "3329",
+      "15502",
+      "5378",
+      "12430",
+      "12353",
+      "12302",
+      "21183",
+      "48728",
+      "15480",
+      "16019"
+    ],
+    "deps": [
+      {
+        "downstream_asn": "30722 | VODAFONE-IT-ASN Vodafone Italia S.p.A., IT",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 29.255502332425397
+      },
+      {
+        "downstream_asn": "30722 | VODAFONE-IT-ASN Vodafone Italia S.p.A., IT",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 4.25331750299745
+      },
+      {
+        "downstream_asn": "30722 | VODAFONE-IT-ASN Vodafone Italia S.p.A., IT",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 2.00056353902508
+      },
+      {
+        "downstream_asn": "30722 | VODAFONE-IT-ASN Vodafone Italia S.p.A., IT",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 60.931033555249705
+      },
+      {
+        "downstream_asn": "30722 | VODAFONE-IT-ASN Vodafone Italia S.p.A., IT",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 4.52611846842616
+      },
+      {
+        "downstream_asn": "15897 | VodafoneTurkey Vodafone Telekomunikasyon A.S., TR",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 19.5830475537266
+      },
+      {
+        "downstream_asn": "15897 | VodafoneTurkey Vodafone Telekomunikasyon A.S., TR",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 14.1260859625057
+      },
+      {
+        "downstream_asn": "15897 | VodafoneTurkey Vodafone Telekomunikasyon A.S., TR",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 1.96330589849108
+      },
+      {
+        "downstream_asn": "15897 | VodafoneTurkey Vodafone Telekomunikasyon A.S., TR",
+        "upstream_asn": "6762 | SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+        "dependency_pct": 2.1947873799725603
+      },
+      {
+        "downstream_asn": "15897 | VodafoneTurkey Vodafone Telekomunikasyon A.S., TR",
+        "upstream_asn": "15924 | BORUSANTELEKOM-AS VODAFONE NET ILETISIM HIZMETLERI ANONIM SIRKETI, TR",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "15897 | VodafoneTurkey Vodafone Telekomunikasyon A.S., TR",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 97.8912827133597
+      },
+      {
+        "downstream_asn": "15897 | VodafoneTurkey Vodafone Telekomunikasyon A.S., TR",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 1.79183813443073
+      },
+      {
+        "downstream_asn": "50973 | VODAFONE-AL-ASN Vodafone Albania Sh.A., AL",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 17.897727272727302
+      },
+      {
+        "downstream_asn": "50973 | VODAFONE-AL-ASN Vodafone Albania Sh.A., AL",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 13.0681818181818
+      },
+      {
+        "downstream_asn": "50973 | VODAFONE-AL-ASN Vodafone Albania Sh.A., AL",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 1.4204545454545499
+      },
+      {
+        "downstream_asn": "50973 | VODAFONE-AL-ASN Vodafone Albania Sh.A., AL",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "50973 | VODAFONE-AL-ASN Vodafone Albania Sh.A., AL",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 1.51515151515152
+      },
+      {
+        "downstream_asn": "21334 | ASN-VODAFONE-HU Vodafone Hungary Ltd., HU",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 14.1294193733832
+      },
+      {
+        "downstream_asn": "21334 | ASN-VODAFONE-HU Vodafone Hungary Ltd., HU",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 20.1051547379515
+      },
+      {
+        "downstream_asn": "21334 | ASN-VODAFONE-HU Vodafone Hungary Ltd., HU",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 6.25
+      },
+      {
+        "downstream_asn": "21334 | ASN-VODAFONE-HU Vodafone Hungary Ltd., HU",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "3209 | VODANET Vodafone GmbH, DE",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 14.613118512428699
+      },
+      {
+        "downstream_asn": "3209 | VODANET Vodafone GmbH, DE",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 4.1934271283291
+      },
+      {
+        "downstream_asn": "3209 | VODANET Vodafone GmbH, DE",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 2.05342283090373
+      },
+      {
+        "downstream_asn": "3209 | VODANET Vodafone GmbH, DE",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 66.5548112598469
+      },
+      {
+        "downstream_asn": "3209 | VODANET Vodafone GmbH, DE",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 2.27356045576452
+      },
+      {
+        "downstream_asn": "3329 | HOL-GR VODAFONE-PANAFON HELLENIC TELECOMMUNICATIONS COMPANY SA, GR",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 17.709536788436
+      },
+      {
+        "downstream_asn": "3329 | HOL-GR VODAFONE-PANAFON HELLENIC TELECOMMUNICATIONS COMPANY SA, GR",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 1.14955786236063
+      },
+      {
+        "downstream_asn": "3329 | HOL-GR VODAFONE-PANAFON HELLENIC TELECOMMUNICATIONS COMPANY SA, GR",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 9.77116339443867
+      },
+      {
+        "downstream_asn": "3329 | HOL-GR VODAFONE-PANAFON HELLENIC TELECOMMUNICATIONS COMPANY SA, GR",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 6.87147405269704
+      },
+      {
+        "downstream_asn": "3329 | HOL-GR VODAFONE-PANAFON HELLENIC TELECOMMUNICATIONS COMPANY SA, GR",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 1.78926288059226
+      },
+      {
+        "downstream_asn": "3329 | HOL-GR VODAFONE-PANAFON HELLENIC TELECOMMUNICATIONS COMPANY SA, GR",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 93.8932883742094
+      },
+      {
+        "downstream_asn": "3329 | HOL-GR VODAFONE-PANAFON HELLENIC TELECOMMUNICATIONS COMPANY SA, GR",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 1.07843137254902
+      },
+      {
+        "downstream_asn": "15502 | Vodafone-Ireland-ASN Vodafone Ireland Limited, IE",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 16.2272382397572
+      },
+      {
+        "downstream_asn": "15502 | Vodafone-Ireland-ASN Vodafone Ireland Limited, IE",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 12.2091552857865
+      },
+      {
+        "downstream_asn": "15502 | Vodafone-Ireland-ASN Vodafone Ireland Limited, IE",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 0.00421514078570224
+      },
+      {
+        "downstream_asn": "15502 | Vodafone-Ireland-ASN Vodafone Ireland Limited, IE",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 99.9990633020476
+      },
+      {
+        "downstream_asn": "15502 | Vodafone-Ireland-ASN Vodafone Ireland Limited, IE",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 0.0126454223571067
+      },
+      {
+        "downstream_asn": "5378 | Vodafone Limited, GB",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 8.06507279116466
+      },
+      {
+        "downstream_asn": "5378 | Vodafone Limited, GB",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 25.2091700133869
+      },
+      {
+        "downstream_asn": "5378 | Vodafone Limited, GB",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 2.08333333333333
+      },
+      {
+        "downstream_asn": "5378 | Vodafone Limited, GB",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 83.6596385542169
+      },
+      {
+        "downstream_asn": "12430 | VODAFONE_ES VODAFONE ESPANA S.A.U., ES",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 25.0
+      },
+      {
+        "downstream_asn": "12430 | VODAFONE_ES VODAFONE ESPANA S.A.U., ES",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 10.4166666666667
+      },
+      {
+        "downstream_asn": "12430 | VODAFONE_ES VODAFONE ESPANA S.A.U., ES",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 4.16666666666667
+      },
+      {
+        "downstream_asn": "12430 | VODAFONE_ES VODAFONE ESPANA S.A.U., ES",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 58.3333333333333
+      },
+      {
+        "downstream_asn": "12353 | VODAFONE-PT Vodafone Portugal - Communicacoes Pessoais S.A., PT",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 6.25086017065786
+      },
+      {
+        "downstream_asn": "12353 | VODAFONE-PT Vodafone Portugal - Communicacoes Pessoais S.A., PT",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 12.5021504266446
+      },
+      {
+        "downstream_asn": "12353 | VODAFONE-PT Vodafone Portugal - Communicacoes Pessoais S.A., PT",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 6.25043008532893
+      },
+      {
+        "downstream_asn": "12353 | VODAFONE-PT Vodafone Portugal - Communicacoes Pessoais S.A., PT",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 2.0829032480043996
+      },
+      {
+        "downstream_asn": "12353 | VODAFONE-PT Vodafone Portugal - Communicacoes Pessoais S.A., PT",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 99.9995699146711
+      },
+      {
+        "downstream_asn": "12353 | VODAFONE-PT Vodafone Portugal - Communicacoes Pessoais S.A., PT",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 2.0829032480043996
+      },
+      {
+        "downstream_asn": "12302 | Vodafone_Ro Vodafone Romania S.A., RO",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 13.2867462311558
+      },
+      {
+        "downstream_asn": "12302 | Vodafone_Ro Vodafone Romania S.A., RO",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 11.9582286432161
+      },
+      {
+        "downstream_asn": "12302 | Vodafone_Ro Vodafone Romania S.A., RO",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 2.0901381909547703
+      },
+      {
+        "downstream_asn": "12302 | Vodafone_Ro Vodafone Romania S.A., RO",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "12302 | Vodafone_Ro Vodafone Romania S.A., RO",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 4.0965242881072
+      },
+      {
+        "downstream_asn": "21183 | ABCOM-AS Vodafone Albania Sh.A., AL",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 21.081349206349202
+      },
+      {
+        "downstream_asn": "21183 | ABCOM-AS Vodafone Albania Sh.A., AL",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 14.0625
+      },
+      {
+        "downstream_asn": "21183 | ABCOM-AS Vodafone Albania Sh.A., AL",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 1.46329365079365
+      },
+      {
+        "downstream_asn": "21183 | ABCOM-AS Vodafone Albania Sh.A., AL",
+        "upstream_asn": "50973 | VODAFONE-AL-ASN Vodafone Albania Sh.A., AL",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "21183 | ABCOM-AS Vodafone Albania Sh.A., AL",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "21183 | ABCOM-AS Vodafone Albania Sh.A., AL",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 0.223214285714286
+      },
+      {
+        "downstream_asn": "48728 | vodafoneqatar Vodafone Qatar P.Q.S.C, QA",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 0.13184001670843798
+      },
+      {
+        "downstream_asn": "48728 | vodafoneqatar Vodafone Qatar P.Q.S.C, QA",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 2.09899749373434
+      },
+      {
+        "downstream_asn": "48728 | vodafoneqatar Vodafone Qatar P.Q.S.C, QA",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 2.75049603174603
+      },
+      {
+        "downstream_asn": "48728 | vodafoneqatar Vodafone Qatar P.Q.S.C, QA",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 1.22702589807853
+      },
+      {
+        "downstream_asn": "48728 | vodafoneqatar Vodafone Qatar P.Q.S.C, QA",
+        "upstream_asn": "200612 | GulfBridgeInternational Gulf Bridge International Inc., VG",
+        "dependency_pct": 16.7218687901973
+      },
+      {
+        "downstream_asn": "48728 | vodafoneqatar Vodafone Qatar P.Q.S.C, QA",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 5.1750469924811995
+      },
+      {
+        "downstream_asn": "48728 | vodafoneqatar Vodafone Qatar P.Q.S.C, QA",
+        "upstream_asn": "39386 | STC-IGW-AS Saudi Telecom Company JSC, SA",
+        "dependency_pct": 24.6887724930303
+      },
+      {
+        "downstream_asn": "48728 | vodafoneqatar Vodafone Qatar P.Q.S.C, QA",
+        "upstream_asn": "3491 | BTN-ASN, US",
+        "dependency_pct": 18.5298758997754
+      },
+      {
+        "downstream_asn": "48728 | vodafoneqatar Vodafone Qatar P.Q.S.C, QA",
+        "upstream_asn": "6453 | AS6453, US",
+        "dependency_pct": 33.8905736357004
+      },
+      {
+        "downstream_asn": "48728 | vodafoneqatar Vodafone Qatar P.Q.S.C, QA",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 2.13097848788638
+      },
+      {
+        "downstream_asn": "15480 | VFNL-AS Vodafone Libertel B.V., NL",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 10.4166666666667
+      },
+      {
+        "downstream_asn": "15480 | VFNL-AS Vodafone Libertel B.V., NL",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 2.08333333333333
+      },
+      {
+        "downstream_asn": "15480 | VFNL-AS Vodafone Libertel B.V., NL",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 2.08333333333333
+      },
+      {
+        "downstream_asn": "15480 | VFNL-AS Vodafone Libertel B.V., NL",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 10.41800128123
+      },
+      {
+        "downstream_asn": "15480 | VFNL-AS Vodafone Libertel B.V., NL",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 0.02268844757634
+      },
+      {
+        "downstream_asn": "15480 | VFNL-AS Vodafone Libertel B.V., NL",
+        "upstream_asn": "33915 | TNF-AS Vodafone Libertel B.V., NL",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "15480 | VFNL-AS Vodafone Libertel B.V., NL",
+        "upstream_asn": "6830 | LibertyGlobal Liberty Global B.V., NL",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "15480 | VFNL-AS Vodafone Libertel B.V., NL",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 4.85933162502669
+      },
+      {
+        "downstream_asn": "16019 | VODAFONE-CZ-AS Vodafone Czech Republic a.s., CZ",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 9.79254943502825
+      },
+      {
+        "downstream_asn": "16019 | VODAFONE-CZ-AS Vodafone Czech Republic a.s., CZ",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 13.7388805570306
+      },
+      {
+        "downstream_asn": "16019 | VODAFONE-CZ-AS Vodafone Czech Republic a.s., CZ",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 0.20948033422312798
+      },
+      {
+        "downstream_asn": "16019 | VODAFONE-CZ-AS Vodafone Czech Republic a.s., CZ",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 21.1440677966102
+      },
+      {
+        "downstream_asn": "16019 | VODAFONE-CZ-AS Vodafone Czech Republic a.s., CZ",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 96.25706214689261
+      },
+      {
+        "downstream_asn": "16019 | VODAFONE-CZ-AS Vodafone Czech Republic a.s., CZ",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 0.608227401129943
+      }
+    ]
+  },
+  {
+    "name": "Orange",
+    "asns": [
+      "3215",
+      "9050",
+      "35725",
+      "8953"
+    ],
+    "deps": [
+      {
+        "downstream_asn": "3215 | AS3215 Orange S.A., FR",
+        "upstream_asn": "6453 | AS6453, US",
+        "dependency_pct": 0.00320655515274863
+      },
+      {
+        "downstream_asn": "3215 | AS3215 Orange S.A., FR",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 12.7183770057474
+      },
+      {
+        "downstream_asn": "3215 | AS3215 Orange S.A., FR",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 2.0797557717992703
+      },
+      {
+        "downstream_asn": "3215 | AS3215 Orange S.A., FR",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 0.33973584345650704
+      },
+      {
+        "downstream_asn": "3215 | AS3215 Orange S.A., FR",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 15.132820284508899
+      },
+      {
+        "downstream_asn": "3215 | AS3215 Orange S.A., FR",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 3.0358922173461402
+      },
+      {
+        "downstream_asn": "3215 | AS3215 Orange S.A., FR",
+        "upstream_asn": "5511 | Opentransit Orange S.A., FR",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "3215 | AS3215 Orange S.A., FR",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 4.83614768174013
+      },
+      {
+        "downstream_asn": "9050 | RTD ORANGE ROMANIA COMMUNICATION S.A, RO",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 0.6207966890843251
+      },
+      {
+        "downstream_asn": "9050 | RTD ORANGE ROMANIA COMMUNICATION S.A, RO",
+        "upstream_asn": "8953 | ASN-ORANGE-ROMANIA Orange Romania S.A., RO",
+        "dependency_pct": 0.0172443524745646
+      },
+      {
+        "downstream_asn": "9050 | RTD ORANGE ROMANIA COMMUNICATION S.A, RO",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 9.74198137609933
+      },
+      {
+        "downstream_asn": "9050 | RTD ORANGE ROMANIA COMMUNICATION S.A, RO",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 23.3869345289418
+      },
+      {
+        "downstream_asn": "9050 | RTD ORANGE ROMANIA COMMUNICATION S.A, RO",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 0.29387250675403803
+      },
+      {
+        "downstream_asn": "35725 | COSMOROM TELEKOM ROMANIA MOBILE COMMUNICATIONS S.A., RO",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 16.2487139917695
+      },
+      {
+        "downstream_asn": "35725 | COSMOROM TELEKOM ROMANIA MOBILE COMMUNICATIONS S.A., RO",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 0.289351851851852
+      },
+      {
+        "downstream_asn": "35725 | COSMOROM TELEKOM ROMANIA MOBILE COMMUNICATIONS S.A., RO",
+        "upstream_asn": "9050 | RTD ORANGE ROMANIA COMMUNICATION S.A, RO",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "35725 | COSMOROM TELEKOM ROMANIA MOBILE COMMUNICATIONS S.A., RO",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 14.634773662551401
+      },
+      {
+        "downstream_asn": "8953 | ASN-ORANGE-ROMANIA Orange Romania S.A., RO",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 0.0317258883248731
+      },
+      {
+        "downstream_asn": "8953 | ASN-ORANGE-ROMANIA Orange Romania S.A., RO",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 4.23011844331641
+      },
+      {
+        "downstream_asn": "8953 | ASN-ORANGE-ROMANIA Orange Romania S.A., RO",
+        "upstream_asn": "6762 | SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+        "dependency_pct": 0.18242385786802
+      },
+      {
+        "downstream_asn": "8953 | ASN-ORANGE-ROMANIA Orange Romania S.A., RO",
+        "upstream_asn": "5511 | Opentransit Orange S.A., FR",
+        "dependency_pct": 0.216793570219966
+      },
+      {
+        "downstream_asn": "8953 | ASN-ORANGE-ROMANIA Orange Romania S.A., RO",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 49.4051395939086
+      },
+      {
+        "downstream_asn": "8953 | ASN-ORANGE-ROMANIA Orange Romania S.A., RO",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 0.026438240270727602
+      }
+    ]
+  },
+  {
+    "name": "Deutsche Telekom",
+    "asns": [
+      "29247",
+      "5391",
+      "8585",
+      "3320",
+      "6799",
+      "6821"
+    ],
+    "deps": [
+      {
+        "downstream_asn": "29247 | COSMOTE-GR Cosmote Mobile Telecommunications S.A., GR",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 2.08333333333333
+      },
+      {
+        "downstream_asn": "29247 | COSMOTE-GR Cosmote Mobile Telecommunications S.A., GR",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 2.0687354020687403
+      },
+      {
+        "downstream_asn": "29247 | COSMOTE-GR Cosmote Mobile Telecommunications S.A., GR",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 6.2645979312646
+      },
+      {
+        "downstream_asn": "29247 | COSMOTE-GR Cosmote Mobile Telecommunications S.A., GR",
+        "upstream_asn": "6799 | OTENET-GR Ote SA (Hellenic Telecommunications Organisation), GR",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "29247 | COSMOTE-GR Cosmote Mobile Telecommunications S.A., GR",
+        "upstream_asn": "12713 | OTEGlobe Ote SA (Hellenic Telecommunications Organisation), GR",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "29247 | COSMOTE-GR Cosmote Mobile Telecommunications S.A., GR",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 16.6666666666667
+      },
+      {
+        "downstream_asn": "5391 | T-HT Hrvatski Telekom d.d., HR",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 0.014230418943533699
+      },
+      {
+        "downstream_asn": "5391 | T-HT Hrvatski Telekom d.d., HR",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 9.935678506375229
+      },
+      {
+        "downstream_asn": "5391 | T-HT Hrvatski Telekom d.d., HR",
+        "upstream_asn": "9002 | RETN-AS RETN Limited, GB",
+        "dependency_pct": 1.76836672738312
+      },
+      {
+        "downstream_asn": "5391 | T-HT Hrvatski Telekom d.d., HR",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 3.1254743472981197
+      },
+      {
+        "downstream_asn": "5391 | T-HT Hrvatski Telekom d.d., HR",
+        "upstream_asn": "3320 | DTAG Deutsche Telekom AG, DE",
+        "dependency_pct": 82.8424133224337
+      },
+      {
+        "downstream_asn": "5391 | T-HT Hrvatski Telekom d.d., HR",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 2.95897207495752
+      },
+      {
+        "downstream_asn": "5391 | T-HT Hrvatski Telekom d.d., HR",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 18.4886346387371
+      },
+      {
+        "downstream_asn": "5391 | T-HT Hrvatski Telekom d.d., HR",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 7.05941665186072
+      },
+      {
+        "downstream_asn": "8585 | INTERNET-CG Crnogorski Telekom a.d.Podgorica, ME",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 5.55555555555556
+      },
+      {
+        "downstream_asn": "8585 | INTERNET-CG Crnogorski Telekom a.d.Podgorica, ME",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 0.0607638888888889
+      },
+      {
+        "downstream_asn": "8585 | INTERNET-CG Crnogorski Telekom a.d.Podgorica, ME",
+        "upstream_asn": "5391 | T-HT Hrvatski Telekom d.d., HR",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "8585 | INTERNET-CG Crnogorski Telekom a.d.Podgorica, ME",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 89.6440972222222
+      },
+      {
+        "downstream_asn": "3320 | DTAG Deutsche Telekom AG, DE",
+        "upstream_asn": "6453 | AS6453, US",
+        "dependency_pct": 0.000203840991482583
+      },
+      {
+        "downstream_asn": "3320 | DTAG Deutsche Telekom AG, DE",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 0.29077077344425
+      },
+      {
+        "downstream_asn": "3320 | DTAG Deutsche Telekom AG, DE",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 11.5910042308921
+      },
+      {
+        "downstream_asn": "3320 | DTAG Deutsche Telekom AG, DE",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 2.08428981373684
+      },
+      {
+        "downstream_asn": "3320 | DTAG Deutsche Telekom AG, DE",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 8.66390396016482
+      },
+      {
+        "downstream_asn": "3320 | DTAG Deutsche Telekom AG, DE",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 2.2149647640950803
+      },
+      {
+        "downstream_asn": "3320 | DTAG Deutsche Telekom AG, DE",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 5.42061332009945
+      },
+      {
+        "downstream_asn": "6799 | OTENET-GR Ote SA (Hellenic Telecommunications Organisation), GR",
+        "upstream_asn": "1273 | CW Vodafone Group PLC, EU",
+        "dependency_pct": 2.0138980011372096
+      },
+      {
+        "downstream_asn": "6799 | OTENET-GR Ote SA (Hellenic Telecommunications Organisation), GR",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 2.08333333333333
+      },
+      {
+        "downstream_asn": "6799 | OTENET-GR Ote SA (Hellenic Telecommunications Organisation), GR",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 6.324355946288759
+      },
+      {
+        "downstream_asn": "6799 | OTENET-GR Ote SA (Hellenic Telecommunications Organisation), GR",
+        "upstream_asn": "12713 | OTEGlobe Ote SA (Hellenic Telecommunications Organisation), GR",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "6799 | OTENET-GR Ote SA (Hellenic Telecommunications Organisation), GR",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 16.6661199317675
+      },
+      {
+        "downstream_asn": "6821 | MT-AS-OWN Makedonski Telekom AD-Skopje, MK",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 0.0870147255689424
+      },
+      {
+        "downstream_asn": "6821 | MT-AS-OWN Makedonski Telekom AD-Skopje, MK",
+        "upstream_asn": "6663 | TTI-NET Euroweb Romania S.R.L., RO",
+        "dependency_pct": 0.751338688085676
+      },
+      {
+        "downstream_asn": "6821 | MT-AS-OWN Makedonski Telekom AD-Skopje, MK",
+        "upstream_asn": "9002 | RETN-AS RETN Limited, GB",
+        "dependency_pct": 5.59906291834003
+      },
+      {
+        "downstream_asn": "6821 | MT-AS-OWN Makedonski Telekom AD-Skopje, MK",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 3.0848393574297197
+      },
+      {
+        "downstream_asn": "6821 | MT-AS-OWN Makedonski Telekom AD-Skopje, MK",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 0.107095046854083
+      },
+      {
+        "downstream_asn": "6821 | MT-AS-OWN Makedonski Telekom AD-Skopje, MK",
+        "upstream_asn": "41313 | NOVATEL-AS \"NOVATEL\" EOOD, BG",
+        "dependency_pct": 23.425249878338
+      },
+      {
+        "downstream_asn": "6821 | MT-AS-OWN Makedonski Telekom AD-Skopje, MK",
+        "upstream_asn": "12713 | OTEGlobe Ote SA (Hellenic Telecommunications Organisation), GR",
+        "dependency_pct": 47.4340015535466
+      },
+      {
+        "downstream_asn": "6821 | MT-AS-OWN Makedonski Telekom AD-Skopje, MK",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 25.497626871120797
+      },
+      {
+        "downstream_asn": "6821 | MT-AS-OWN Makedonski Telekom AD-Skopje, MK",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 0.110441767068273
+      }
+    ]
+  },
+  {
+    "name": "Telecom Slovenia",
+    "asns": [
+      "21246",
+      "5603"
+    ],
+    "deps": [
+      {
+        "downstream_asn": "21246 | IPKO-AS IPKO Telecommunications LLC, AL",
+        "upstream_asn": "3320 | DTAG Deutsche Telekom AG, DE",
+        "dependency_pct": 0.128517316017316
+      },
+      {
+        "downstream_asn": "21246 | IPKO-AS IPKO Telecommunications LLC, AL",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 6.04031385281385
+      },
+      {
+        "downstream_asn": "21246 | IPKO-AS IPKO Telecommunications LLC, AL",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 99.2559523809524
+      },
+      {
+        "downstream_asn": "21246 | IPKO-AS IPKO Telecommunications LLC, AL",
+        "upstream_asn": "5603 | SIOL-NET Telekom Slovenije, d.d., SI",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "21246 | IPKO-AS IPKO Telecommunications LLC, AL",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 0.216450216450216
+      },
+      {
+        "downstream_asn": "5603 | SIOL-NET Telekom Slovenije, d.d., SI",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 0.5237315875613751
+      },
+      {
+        "downstream_asn": "5603 | SIOL-NET Telekom Slovenije, d.d., SI",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 11.3134206219313
+      },
+      {
+        "downstream_asn": "5603 | SIOL-NET Telekom Slovenije, d.d., SI",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 1.12384069830878
+      },
+      {
+        "downstream_asn": "5603 | SIOL-NET Telekom Slovenije, d.d., SI",
+        "upstream_asn": "3320 | DTAG Deutsche Telekom AG, DE",
+        "dependency_pct": 29.399208947081302
+      },
+      {
+        "downstream_asn": "5603 | SIOL-NET Telekom Slovenije, d.d., SI",
+        "upstream_asn": "6762 | SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+        "dependency_pct": 0.5237315875613751
+      },
+      {
+        "downstream_asn": "5603 | SIOL-NET Telekom Slovenije, d.d., SI",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 58.20035460992909
+      },
+      {
+        "downstream_asn": "5603 | SIOL-NET Telekom Slovenije, d.d., SI",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 4.68085106382979
+      },
+      {
+        "downstream_asn": "5603 | SIOL-NET Telekom Slovenije, d.d., SI",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 0.0654308495063762
+      }
+    ]
+  },
+  {
+    "name": "4iG",
+    "asns": [
+      "15397",
+      "42313",
+      "50616",
+      "5483",
+      "20845"
+    ],
+    "deps": [
+      {
+        "downstream_asn": "15397 | TelenorMontenegro One Crna Gora DOO, ME",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 39.5833333333333
+      },
+      {
+        "downstream_asn": "15397 | TelenorMontenegro One Crna Gora DOO, ME",
+        "upstream_asn": "15958 | CETIN_doo_AS CETIN Ltd. Belgrade, RS",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "15397 | TelenorMontenegro One Crna Gora DOO, ME",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 27.083333333333297
+      },
+      {
+        "downstream_asn": "42313 | ALBTELECOM-AS Albtelecom Sh.a., AL",
+        "upstream_asn": "6453 | AS6453, US",
+        "dependency_pct": 0.053030303030303004
+      },
+      {
+        "downstream_asn": "42313 | ALBTELECOM-AS Albtelecom Sh.a., AL",
+        "upstream_asn": "12713 | OTEGlobe Ote SA (Hellenic Telecommunications Organisation), GR",
+        "dependency_pct": 12.5984848484848
+      },
+      {
+        "downstream_asn": "42313 | ALBTELECOM-AS Albtelecom Sh.a., AL",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 0.174242424242424
+      },
+      {
+        "downstream_asn": "42313 | ALBTELECOM-AS Albtelecom Sh.a., AL",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 7.52272727272727
+      },
+      {
+        "downstream_asn": "42313 | ALBTELECOM-AS Albtelecom Sh.a., AL",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 3.68181818181818
+      },
+      {
+        "downstream_asn": "42313 | ALBTELECOM-AS Albtelecom Sh.a., AL",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 0.553030303030303
+      },
+      {
+        "downstream_asn": "42313 | ALBTELECOM-AS Albtelecom Sh.a., AL",
+        "upstream_asn": "6663 | TTI-NET Euroweb Romania S.R.L., RO",
+        "dependency_pct": 1.49019607843137
+      },
+      {
+        "downstream_asn": "42313 | ALBTELECOM-AS Albtelecom Sh.a., AL",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 0.0227272727272727
+      },
+      {
+        "downstream_asn": "42313 | ALBTELECOM-AS Albtelecom Sh.a., AL",
+        "upstream_asn": "6762 | SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+        "dependency_pct": 29.269421487603296
+      },
+      {
+        "downstream_asn": "42313 | ALBTELECOM-AS Albtelecom Sh.a., AL",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 67.9393939393939
+      },
+      {
+        "downstream_asn": "50616 | AMC ONE ALBANIA SH.A., AL",
+        "upstream_asn": "6762 | SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+        "dependency_pct": 6.25
+      },
+      {
+        "downstream_asn": "50616 | AMC ONE ALBANIA SH.A., AL",
+        "upstream_asn": "6663 | TTI-NET Euroweb Romania S.R.L., RO",
+        "dependency_pct": 2.08333333333333
+      },
+      {
+        "downstream_asn": "50616 | AMC ONE ALBANIA SH.A., AL",
+        "upstream_asn": "12713 | OTEGlobe Ote SA (Hellenic Telecommunications Organisation), GR",
+        "dependency_pct": 72.9166666666667
+      },
+      {
+        "downstream_asn": "50616 | AMC ONE ALBANIA SH.A., AL",
+        "upstream_asn": "42313 | ALBTELECOM-AS Albtelecom Sh.a., AL",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "50616 | AMC ONE ALBANIA SH.A., AL",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 22.9166666666667
+      },
+      {
+        "downstream_asn": "5483 | MAGYAR-TELEKOM-MAIN-AS Magyar Telekom plc., HU",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 2.07847815172704
+      },
+      {
+        "downstream_asn": "5483 | MAGYAR-TELEKOM-MAIN-AS Magyar Telekom plc., HU",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 13.006524211408399
+      },
+      {
+        "downstream_asn": "5483 | MAGYAR-TELEKOM-MAIN-AS Magyar Telekom plc., HU",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 0.000748189381696295
+      },
+      {
+        "downstream_asn": "5483 | MAGYAR-TELEKOM-MAIN-AS Magyar Telekom plc., HU",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 12.610731491866101
+      },
+      {
+        "downstream_asn": "5483 | MAGYAR-TELEKOM-MAIN-AS Magyar Telekom plc., HU",
+        "upstream_asn": "2914 | NTT-LTD-2914, US",
+        "dependency_pct": 1.18924695504384
+      },
+      {
+        "downstream_asn": "5483 | MAGYAR-TELEKOM-MAIN-AS Magyar Telekom plc., HU",
+        "upstream_asn": "3320 | DTAG Deutsche Telekom AG, DE",
+        "dependency_pct": 99.9461303645178
+      },
+      {
+        "downstream_asn": "5483 | MAGYAR-TELEKOM-MAIN-AS Magyar Telekom plc., HU",
+        "upstream_asn": "174 | COGENT-174, US",
+        "dependency_pct": 2.0504130005387
+      },
+      {
+        "downstream_asn": "5483 | MAGYAR-TELEKOM-MAIN-AS Magyar Telekom plc., HU",
+        "upstream_asn": "9002 | RETN-AS RETN Limited, GB",
+        "dependency_pct": 0.035913090321422196
+      },
+      {
+        "downstream_asn": "5483 | MAGYAR-TELEKOM-MAIN-AS Magyar Telekom plc., HU",
+        "upstream_asn": "3223 | VOXILITY Voxility LLP, GB",
+        "dependency_pct": 0.017956545160711098
+      },
+      {
+        "downstream_asn": "20845 | DIGICABLE DIGI Tavkozlesi es Szolgaltato Kft., HU",
+        "upstream_asn": "6939 | HURRICANE, US",
+        "dependency_pct": 6.25
+      },
+      {
+        "downstream_asn": "20845 | DIGICABLE DIGI Tavkozlesi es Szolgaltato Kft., HU",
+        "upstream_asn": "3257 | GTT-BACKBONE GTT Communications Inc., US",
+        "dependency_pct": 10.9939657497303
+      },
+      {
+        "downstream_asn": "20845 | DIGICABLE DIGI Tavkozlesi es Szolgaltato Kft., HU",
+        "upstream_asn": "3356 | LEVEL3, US",
+        "dependency_pct": 5.5943230852211405
+      },
+      {
+        "downstream_asn": "20845 | DIGICABLE DIGI Tavkozlesi es Szolgaltato Kft., HU",
+        "upstream_asn": "8708 | RCS-RDS RCS & RDS SA, RO",
+        "dependency_pct": 100.0
+      },
+      {
+        "downstream_asn": "20845 | DIGICABLE DIGI Tavkozlesi es Szolgaltato Kft., HU",
+        "upstream_asn": "1299 | TWELVE99 Arelion Sweden AB, SE",
+        "dependency_pct": 14.2150418015102
+      }
+    ]
+  }
+]
