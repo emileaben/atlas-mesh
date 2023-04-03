@@ -15,7 +15,7 @@ with open("msm_state.json",'rt') as inf:
 
 asn2cc ={}
 prb2asnv4 = {}
-with open("probes_20230131.json",'r') as fd:
+with open("probes_20230130.json",'r') as fd:
     prb_info = json.load(fd)
     for obj in prb_info['objects']:
         prb2asnv4[str(obj['id'])] = obj['asn_v4']
@@ -36,52 +36,33 @@ with open("asnames/asnames.txt", "r") as f:
         asn_name[asn] = name
 
 def asn2name(asn):
+    """
+    First tries to find if the shortned named exists in our mapping
+    If it does not exist get the name from ripstate
+    """
     if asn in asn_name:
         return asn_name[asn]
+    if get_asnname(asn):
+        return get_asnname(asn)
     return ""
 
-def append_results(results, record):
-    """
-    Adds a dictionary record to a list results, and removes an existing dictionary from results if it matches all key-value
-    pairs of record except for the 'type' key, if the old 'type' value is 'transit', and the new 'type' value of record is 'src_dst'
-    replace the old record with new.
-
-    Args:
-    results (list): A list of dictionaries representing network data.
-    record (dict): A dictionary representing a new network data record to be added to the list.
-
-    Returns:
-    A list of dictionaries representing network data with the new record added and/or an existing record removed.
-    """
-    # Check if new dictionary is already in the list
-    if record in results:
-        return results
-    
-    # Check if an existing dictionary in the list matches all key-value pairs of the new dictionary except for the 'type' key
-    record_match = False
-    for i in range(len(results)):
-        record_match = True
-        for key, value in record.items():
-            #raise(0)
-            if key != 'type' and results[i].get(key) != value:
-                record_match = False
-                break
-        
-        if record_match:
-            # Remove dictionary from list if its 'type' value is 'transit' and the new dictionary has a 'type' value of 'src_dst'
-            if results[i].get('type') == 'transit' and record.get('type') == 'src_dst' and \
-               results[i].get('id') == record.get('id') and results[i].get('nodes') == record.get('nodes') and \
-               results[i].get('cc') == record.get('cc') and results[i].get('name') == record.get('name'):
-                   results.pop(i)
-                   results.append(record)
-                   break
-    
-    # Add new dictionary to list if it doesn't already exist
-    if not record_match:
-        results.append(record)
-    
-    return results
-
+def append_results(nodes_list, new_node):
+    # loop through the nodes in the list
+    for i in range(len(nodes_list)):
+        # if the id matches and src_dst is 0
+        if nodes_list[i]['id'] == new_node['id'] and nodes_list[i]['src_dst'] == 0:
+            # replace the node with the new one
+            nodes_list[i] = new_node
+            # return the updated list
+            return nodes_list
+        # if the id matches and src_dst is 10, do not append the new node
+        elif nodes_list[i]['id'] == new_node['id'] and nodes_list[i]['src_dst'] == 10:
+            # return the original list
+            return nodes_list
+    # if the new node does not exist in the list, append it
+    nodes_list.append(new_node)
+    # return the updated list
+    return nodes_list
 
 
 
@@ -172,15 +153,15 @@ def ip2loc(ip):
         sys.stderr.write("issue accessing ipmap-service for %s\n" %(ip))
         return None
 
-# def asn2name(asn):
-#     try:
-#         d = requests.get( "https://stat.ripe.net/data/as-names/data.json?resource=%s" % ( asn) ).json()
-#         if d['data']:
-#             if  'names' in d['data']:
-#                 return d['data']['names'][asn]
-#             return None
-#     except:
-#         sys.stderr.write("no asn name for asn %s\n" %(asn))
+def get_asnname(asn):
+    try:
+        d = requests.get( "https://stat.ripe.net/data/as-names/data.json?resource=%s" % ( asn) ).json()
+        if d['data']:
+            if  'names' in d['data']:
+                return d['data']['names'][asn]
+            return None
+    except:
+        sys.stderr.write("no asn name for asn %s\n" %(asn))
 
 
 def asn2loc(asn):
@@ -247,7 +228,6 @@ def add_data(prev_results, new_results):
     for dict in combined_list:
         if dict not in unique_list:
             unique_list.append(dict)
-    pprint(unique_list)
     return unique_list
 
 
@@ -285,18 +265,17 @@ asn_ids ={}
 
 
 
-def analyse_trace( msm_id, fam_asns,results,links ):
+def analyse_trace( msm_id,to_prb,results,links ):
     j = fetch_results(msm_id)
     if not j:
+        url = f'https://atlas.ripe.net/api/v2/measurements/{msm_id}/results/'
         print(f"No response received from {url} after 5 attempts. Returning empty results and links.")
         raise(0)
         return [], []
     for m in j: # its a list
-        if not 'dst_addr' in m:
-            continue
         dst_addr = m['dst_addr']
         #dst_asn = ip2as( dst_addr )
-        to_prb = msmid2prb[ msm_id ]
+        #to_prb = msmid2prb[ msm_id ]
         dst_asn = str(prb2asnv4[str(to_prb)])
         if dst_asn:
             dst_cc = asn2loc(dst_asn)
@@ -306,8 +285,19 @@ def analyse_trace( msm_id, fam_asns,results,links ):
         prb_id = m['prb_id']
         prb_asn = str( state['prb_meta'][ str( prb_id ) ]['asn_v4'] )
         prb_cc = str(state['prb_meta'][str(prb_id)]['country_code'])
+        
+        print(f"# msm_id:{msm_id} from_prb:{prb_id} from_asn:{prb_asn} to_prb:{msmid2prb[ msm_id ]} to_asn:{dst_asn}")
+        if dst_asn=='5483' or prb_asn =='5483':# Ignoring MAGYAR wrong classified in 4iG
+            continue
+
         prev_asn = prb_asn
         next_asn =''
+#         if msm_id == 49282290:
+#             pprint(m)
+#             pprint(j)
+#             print(prb_asn)
+#             print(dst_asn)
+#             raise(0)
 
 
         if not  is_asn_in_list(results, prb_asn):
@@ -316,7 +306,7 @@ def analyse_trace( msm_id, fam_asns,results,links ):
                 'nodes': int(prb_asn),
                 'cc': prb_cc,
                 'name':asn2name(prb_asn),
-                'type':'src_dst'
+                'src_dst':10
                 })
         ips = {} # keyed by IP
         for hop in m['result']:
@@ -360,9 +350,10 @@ def analyse_trace( msm_id, fam_asns,results,links ):
                     results = append_results(results,{
                         'id':int(asn),
                         'nodes': int(asn),
-                        'cc': asn2loc(asn),
+                        'cc':'Transit',
+                        #'cc': asn2loc(asn)
                         'name':asn2name(asn),
-                        'type':'transit',
+                        'src_dst':0,
                         })
             if asn !=None and asn!=prev_asn:
                #src_id = find_asn_id(str(prev_asn),results) 
@@ -383,26 +374,25 @@ def analyse_trace( msm_id, fam_asns,results,links ):
                 'nodes': int(dst_asn),
                 'cc': dst_cc,
                 'name':dst_asn_name,
-                'type':'src_dst'
+                'src_dst':10
                 })
 
-        return results,links
-
+    return results,links
+#    return results,links
 r = []
 links_r = []
 #asn_id = count(0)
 counter = 0
 for fam, msms in state['measurements'].items():
-#    pprint(msms)
-#    raise(0)
     this_f = {'fam': fam, 'nodes': [], 'links': []}
     fam_asns = set(state['families'][fam])
+
     for prb_id, msm_id in msms.items():
         if msm_id:
-            trace_asns, links = analyse_trace(msm_id, fam_asns,this_f['nodes'],this_f['links'])
-            this_f['nodes']=add_data(this_f['nodes'],trace_asns)
-            this_f['links']=add_data(this_f['links'],links)
-            counter +=1
+            trace_asns, links = analyse_trace(msm_id, prb_id,this_f['nodes'],this_f['links'])
+            if trace_asns and links:
+                this_f['nodes']=add_data(this_f['nodes'],trace_asns)
+                this_f['links']=add_data(this_f['links'],links)
     r.append(this_f)
 with open('family-asn-topology.json','wt') as outf:
     json.dump( r, outf, indent=2 )
